@@ -60,7 +60,7 @@ table {
 
 @media (max-width:992px) {
   table {
-    height: 700px;
+    height: 400px;
     width: 992px;
   }
 }
