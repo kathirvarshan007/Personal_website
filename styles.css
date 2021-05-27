@@ -1,0 +1,103 @@
+body {
+
+}
+
+h1:hover {
+  color: red;
+}
+
+/* Navigation Bar */
+
+.collapse {
+  padding: 4% 25% 4% 30%;
+  background-color: #f0f8ff;
+  font-size: 1.3rem;
+  color:	#2f4f4f;
+}
+
+@media (max-width: 992px) {
+  .collapse {
+    padding: 0%;
+  }
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+/* About */
+
+#about {
+  padding: 5% 0%;
+}
+
+.about-image {
+  border-radius: 100%;
+}
+
+.paragraph-about-image {
+  text-align: right;
+  padding: 4% 10%;
+}
+
+.paragraph-about-text {
+  text-align: left;
+  padding: 4% 10%;
+}
+
+@media (max-width: 992px) {
+  .about-mobile-view {
+    text-align: center;
+  }
+}
+
+/* Education */
+
+table {
+  padding-top: 5%;
+  text-align: center;
+}
+
+@media (max-width:992px) {
+  table {
+    height: 700px;
+    width: 992px;
+  }
+}
+
+/* Skills */
+
+#skills {
+  padding: 5% 0%;
+}
+
+.skills-title {
+  margin-left: 320px;
+}
+
+@media (max-width: 992px) {
+  .skills-title {
+    margin-left: 20px;
+  }
+}
+
+table {
+  text-align: left;
+}
+
+/* Achievements */
+
+.achievements-title {
+  margin-left: 320px;
+}
+
+@media (max-width: 992px) {
+  .achievements-title {
+    margin-left: 20px;
+  }
+}
+
+.achievements-link {
+  display: block;
+  margin: 20px 0px;
+}
